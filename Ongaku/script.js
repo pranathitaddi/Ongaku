@@ -19,7 +19,10 @@ song1.onclick = () => {
     
     let item = document.createElement('li');
     item.textContent = "Anti-Hero";
+    audio.src = "https://upload.wikimedia.org/wikipedia/en/a/a4/Anti-Hero_by_Taylor_Swift_%28audio%29.ogg";
+
     played.appendChild(item);
+    audio.play();
 }
 song2.onclick = () => {
     curr_song.innerHTML = "A&W";
