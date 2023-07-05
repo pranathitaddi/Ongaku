@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+
+
+* {
+    background-color: $backcolor1;
+}
+.display{
+    display: flex;
+    .controls{
+        flex: 0.5;
+        height: 100vh;
+        // background-color: $backcolor2;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    .screen{
+        // background-color: red;
+        height: 100vh;
+        border-radius: 20px;
+        flex: 1.5;
+        margin: 5px;
+    }
+}
+
+@import "./controls.scss";
+@import "./screen.scss";
+
+// @import "./filepath"
+
+// can branch like header button{} could be header{ button{}}
+// can do button{&:hover{}} rather than button:hover

@@ -1,0 +1,244 @@
+* {
+  background-color: rgb(255, 255, 255);
+}
+
+.display {
+  display: flex;
+}
+.display .controls {
+  flex: 0.5;
+  height: 100vh;
+  border-radius: 20px;
+  margin: 5px;
+}
+.display .screen {
+  height: 100vh;
+  border-radius: 20px;
+  flex: 1.5;
+  margin: 5px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+.controls .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(228, 226, 226);
+  border-radius: 20px;
+  margin: 5%;
+  margin-bottom: 2%;
+  width: 97%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.controls .logo img {
+  height: 75px;
+  width: 75px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.controls .logo h1 {
+  text-transform: uppercase;
+  font-size: 6vh;
+  background-color: rgb(228, 226, 226);
+}
+.controls .searchbox {
+  width: 95%;
+  padding: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: rgb(228, 226, 226);
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.controls .searchbox .searchbar {
+  width: 95%;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.controls .searchbox .searchbar .magimg {
+  padding-top: 5px;
+  padding-left: 1.05%;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.controls .searchbox .searchbar img {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.controls .searchbox .searchbar input {
+  width: 98%;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+}
+.controls .library {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  width: 91%;
+  padding: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
+  background-color: rgb(228, 226, 226);
+  height: 55vh;
+  margin: 1%;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.controls .library h1 {
+  margin: 0;
+  background-color: rgb(228, 226, 226);
+}
+.controls .library ul {
+  background-color: transparent;
+}
+.controls .library ul * {
+  background-color: transparent;
+  font-size: 20px;
+}
+.controls .footer {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  width: 91%;
+  padding: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
+  background-color: rgb(228, 226, 226);
+  height: 12.5vh;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  height: 100vh;
+  border-radius: 20px;
+  flex: 1.5;
+  margin: 5px;
+}
+.screen .top {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(228, 226, 226);
+  border-radius: 20px;
+  margin: 1%;
+  margin-bottom: 0;
+  width: 97%;
+  height: 40vh;
+}
+.screen .top * {
+  margin: 2%;
+}
+.screen .top h1 {
+  background-color: rgb(228, 226, 226);
+  margin-bottom: 4px;
+}
+.screen .top .cards {
+  background-color: rgb(228, 226, 226);
+  height: 200%;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen .top .cards .card {
+  background-color: rgb(185, 185, 185);
+  width: 17%;
+  height: 23vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  align-items: center;
+  padding-top: 2%;
+  flex-wrap: wrap;
+}
+.screen .top .cards .card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+.screen .top .cards .card h1 {
+  font-size: 25px;
+  background-color: transparent;
+}
+.screen .top .cards .card h2 {
+  font-size: 12px;
+  background-color: transparent;
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.screen .playlist {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 226, 226);
+  border-radius: 20px;
+  margin: 1%;
+  margin-bottom: 0;
+  width: 97%;
+  height: 24vh;
+}
+.screen .playlist .playbox {
+  height: 98%;
+  width: 97%;
+  background-color: transparent;
+}
+.screen .playlist .playbox h1 {
+  margin-top: 1%;
+  margin-left: 1%;
+  background-color: rgb(228, 226, 226);
+  margin-bottom: 1%;
+}
+.screen .playlist .playbox .line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 5px;
+}
+.screen .playlist .playbox .playbar {
+  background-color: transparent;
+  height: 16vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1%;
+}
+.screen .playlist .playbox .playbar h2 {
+  background-color: transparent;
+  margin: 0;
+}
+.screen .playlist .playbox .playbar audio {
+  background-color: transparent;
+}/*# sourceMappingURL=styles.css.map */
