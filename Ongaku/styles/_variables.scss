@@ -3,15 +3,3 @@ $backcolor2 : rgb(228, 226, 226);
 $backcolor3 : rgb(185, 185, 185);
 $headingcolor: black;
 $textcolor: black;
-
-@mixin flexCenter(){
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-// @mixin funcName{
-// }
-// hav to do @include funcName();
-// @extend header - basically copies all the styles of the header or whatever
