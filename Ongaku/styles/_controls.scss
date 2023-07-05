@@ -1,7 +1,6 @@
 .controls{
         display: flex;
         flex-direction: column;
-        // justify-content: space-between;
         align-items: center;
         background-color: aliceblue;
     .logo{
@@ -26,7 +25,6 @@
             font-size: 6vh;
             background-color: $backcolor2;
         }
-        // padding-bottom: black 2%;
     }
     .searchbox{
         width: 95%;
@@ -106,7 +104,15 @@
         background-color: $backcolor2;
         height: 12.5vh;
         margin: 1%;
-        // margin-top: 2%;
         border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        *{
+            background-color: transparent;
+        }
+        a{
+            color: $textcolor;
+            text-decoration: none;
+        }
     }
 }
